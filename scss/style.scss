@@ -1,0 +1,197 @@
+$primary: #3292a6;
+$primary-overlay:rgba(50,146,166,0.8);
+
+body{
+    margin-top: 105px;
+}
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: white;
+
+    .nav-item{
+        font-size: 1.4rem;
+        padding-right: 20px;
+    }
+}
+            /*------------------------------------------------------------------*/
+#showcase{
+    position: relative;
+    background: url('../img/mountains.jpg');
+    min-height: 600px;
+    .primary-overlay{
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    @media screen and (max-width:800px) {
+        .row{
+            margin-top: 6rem;
+        }
+        h1{
+            font-size: 400%;
+        }
+    }
+}
+ /*---------------------------------------------------------------------*/
+#newsletter{
+    @media screen and (max-width:800px) {
+
+        input{
+            margin-bottom: 10px;
+        }
+    }
+}
+            /*---------------------------------------------------------------------*/
+#boxes{
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+    margin-bottom: -3vw;
+    .card-deck{
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .card{
+        margin-bottom: 1rem;     
+        min-width: 15rem;
+    }
+    @media screen and (max-width:800px) {
+        .card-body{
+            padding: 0.5rem;
+        }
+        h3{
+            font-size: 140%;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .card-deck{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}
+            /*---------------------------------------------------------------------*/
+
+#authors{
+    .card-deck{
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .card{
+        min-width: 15rem;
+    }
+    .lorem div p:first-child{
+        margin: 0 auto;
+        border-bottom: lightgray 2px solid;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: -60px;
+        margin: 0 auto;
+    }
+    .card-img-top{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: -60px;
+    }
+    i{
+        color: $primary;
+        font-size: 150%;
+        padding: 0.5rem;
+    }
+    .card-footer{
+        background: white;
+        border-top: white;
+        text-align: center;
+    }
+}
+#authors{
+    .card:hover{
+         background-color: $primary;
+    
+        i{
+            color: white;
+        }
+        .text-secondary{
+            color: white !important;
+        }
+        .card-footer{
+            background-color: $primary;
+            border-top: 1px solid white;
+        }
+    }
+    @media screen and (max-width:1200px) {
+        .card{
+            margin-bottom: 3rem;
+        }
+        .card4{
+            margin-bottom: 0rem;
+        }
+    }
+    @media screen and (max-width:1000px) {
+        i{
+            font-size: 150%;
+            padding: 0.4rem;
+        }
+        h3{
+            font-size: 140%;
+        }
+        .card{
+            margin-bottom: 3rem;
+        }
+    }
+    @media screen and (max-width:800px) {
+        i{
+            font-size: 150%;
+            padding: 0.4rem;
+        }
+        h3{
+            font-size: 140%;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .card-deck{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        i{
+            font-size: 170%;
+            padding: 0.6rem;
+        }
+        h3{
+            font-size: 140%;
+        }
+        .card1, .card2, .card3{
+            margin-bottom: 6rem;
+        }
+        .card4{
+            margin-bottom: 0rem;
+        }
+    }
+}
+            /*---------------------------------------------------------------------*/
+
+#contact{
+    img{
+        height: 250px;
+        width: 250px;
+    }
+}
+            /*--------------------------------------------------------------------*/
+#footer{
+    background:$primary;
+
+    @media screen and (max-width:800px) {
+        p{
+            text-align: center !important;
+        }
+    }
+}
+

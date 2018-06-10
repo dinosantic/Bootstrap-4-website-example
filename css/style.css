@@ -1,0 +1,147 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: white; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+/*------------------------------------------------------------------*/
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  @media screen and (max-width: 800px) {
+    #showcase .row {
+      margin-top: 6rem; }
+    #showcase h1 {
+      font-size: 400%; } }
+
+/*---------------------------------------------------------------------*/
+@media screen and (max-width: 800px) {
+  #newsletter input {
+    margin-bottom: 10px; } }
+
+/*---------------------------------------------------------------------*/
+#boxes {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+  margin-bottom: -3vw; }
+  #boxes .card-deck {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem; }
+  #boxes .card {
+    margin-bottom: 1rem;
+    min-width: 15rem; }
+  @media screen and (max-width: 800px) {
+    #boxes .card-body {
+      padding: 0.5rem; }
+    #boxes h3 {
+      font-size: 140%; } }
+  @media screen and (max-width: 600px) {
+    #boxes .card-deck {
+      margin-left: 1rem;
+      margin-right: 1rem; } }
+
+/*---------------------------------------------------------------------*/
+#authors .card-deck {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem; }
+
+#authors .card {
+  min-width: 15rem; }
+
+#authors .lorem div p:first-child {
+  margin: 0 auto;
+  border-bottom: lightgray 2px solid; }
+
+#authors img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -60px;
+  margin: 0 auto; }
+
+#authors .card-img-top {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -60px; }
+
+#authors i {
+  color: #3292a6;
+  font-size: 150%;
+  padding: 0.5rem; }
+
+#authors .card-footer {
+  background: white;
+  border-top: white;
+  text-align: center; }
+
+#authors .card:hover {
+  background-color: #3292a6; }
+  #authors .card:hover i {
+    color: white; }
+  #authors .card:hover .text-secondary {
+    color: white !important; }
+  #authors .card:hover .card-footer {
+    background-color: #3292a6;
+    border-top: 1px solid white; }
+
+@media screen and (max-width: 1200px) {
+  #authors .card {
+    margin-bottom: 3rem; }
+  #authors .card4 {
+    margin-bottom: 0rem; } }
+
+@media screen and (max-width: 1000px) {
+  #authors i {
+    font-size: 150%;
+    padding: 0.4rem; }
+  #authors h3 {
+    font-size: 140%; }
+  #authors .card {
+    margin-bottom: 3rem; } }
+
+@media screen and (max-width: 800px) {
+  #authors i {
+    font-size: 150%;
+    padding: 0.4rem; }
+  #authors h3 {
+    font-size: 140%; } }
+
+@media screen and (max-width: 600px) {
+  #authors .card-deck {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  #authors i {
+    font-size: 170%;
+    padding: 0.6rem; }
+  #authors h3 {
+    font-size: 140%; }
+  #authors .card1, #authors .card2, #authors .card3 {
+    margin-bottom: 6rem; }
+  #authors .card4 {
+    margin-bottom: 0rem; } }
+
+/*---------------------------------------------------------------------*/
+#contact img {
+  height: 250px;
+  width: 250px; }
+
+/*--------------------------------------------------------------------*/
+#footer {
+  background: #3292a6; }
+  @media screen and (max-width: 800px) {
+    #footer p {
+      text-align: center !important; } }
